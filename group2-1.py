@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("house_price_missing_letters_lasso_friendly.csv")
+df = pd.read_csv("sample_house_price_data.csv")
 
 # Columns to clean
 cols_to_check = ['Area', 'Bedrooms', 'Age']
